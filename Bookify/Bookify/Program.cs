@@ -1,4 +1,5 @@
 using Bookify.Models;
+using Bookify.Repository.IRepository;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -14,6 +15,8 @@ builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
 .AddEntityFrameworkStores<AppDbContext>()
 .AddDefaultTokenProviders();
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+builder.Services.AddScoped<IApplicationUserRepository, ApplicationUserRepository>();
 
 var app = builder.Build();
 

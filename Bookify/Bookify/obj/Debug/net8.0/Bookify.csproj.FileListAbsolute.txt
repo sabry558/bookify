@@ -83,3 +83,15 @@ A:\bookify-main\bookify-main\Bookify\Bookify\bin\Debug\net8.0\runtimes\win\lib\n
 A:\bookify-main\bookify-main\Bookify\Bookify\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 A:\bookify-main\bookify-main\Bookify\Bookify\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 A:\bookify-main\bookify-main\Bookify\Bookify\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+A:\bookify\Bookify\Bookify\obj\Debug\net8.0\Bookify.csproj.AssemblyReference.cache
+A:\bookify\Bookify\Bookify\obj\Debug\net8.0\rpswa.dswa.cache.json
+A:\bookify\Bookify\Bookify\obj\Debug\net8.0\Bookify.GeneratedMSBuildEditorConfig.editorconfig
+A:\bookify\Bookify\Bookify\obj\Debug\net8.0\Bookify.AssemblyInfoInputs.cache
+A:\bookify\Bookify\Bookify\obj\Debug\net8.0\Bookify.AssemblyInfo.cs
+A:\bookify\Bookify\Bookify\obj\Debug\net8.0\Bookify.csproj.CoreCompileInputs.cache
+A:\bookify\Bookify\Bookify\obj\Debug\net8.0\Bookify.MvcApplicationPartsAssemblyInfo.cs
+A:\bookify\Bookify\Bookify\obj\Debug\net8.0\Bookify.MvcApplicationPartsAssemblyInfo.cache
+A:\bookify\Bookify\Bookify\obj\Debug\net8.0\Bookify.sourcelink.json
+A:\bookify\Bookify\Bookify\obj\Debug\net8.0\Bookify.dll
+A:\bookify\Bookify\Bookify\obj\Debug\net8.0\refint\Bookify.dll
+A:\bookify\Bookify\Bookify\obj\Debug\net8.0\Bookify.pdb

@@ -3330,11 +3330,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "A:\\bookify-main\\bookify-main\\Bookify\\Bookify\\Bookify.csproj",
+      "projectUniqueName": "A:\\bookify\\Bookify\\Bookify\\Bookify.csproj",
       "projectName": "Bookify",
-      "projectPath": "A:\\bookify-main\\bookify-main\\Bookify\\Bookify\\Bookify.csproj",
+      "projectPath": "A:\\bookify\\Bookify\\Bookify\\Bookify.csproj",
       "packagesPath": "C:\\Users\\20155\\.nuget\\packages\\",
-      "outputPath": "A:\\bookify-main\\bookify-main\\Bookify\\Bookify\\obj\\",
+      "outputPath": "A:\\bookify\\Bookify\\Bookify\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
