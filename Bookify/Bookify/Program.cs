@@ -5,6 +5,12 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Bookify.Data.Seeder;
 
+
+using Microsoft.AspNetCore.Authentication.JwtBearer;   
+using Microsoft.IdentityModel.Tokens;                  
+using System.Text;                                     
+using Bookify.Services;                                
+
 var builder = WebApplication.CreateBuilder(args);
 
 
@@ -16,6 +22,35 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
     .AddEntityFrameworkStores<AppDbContext>()
     .AddDefaultTokenProviders();
+
+
+// JWT CONFIGURATION (added)
+var jwt = builder.Configuration.GetSection("Jwt");
+var key = jwt.GetValue<string>("Key");
+
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+})
+.AddJwtBearer(options =>
+{
+    options.RequireHttpsMetadata = false; // true in production
+    options.SaveToken = true;
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidateLifetime = true,
+        ValidateIssuerSigningKey = true,
+        ValidIssuer = jwt["Issuer"],
+        ValidAudience = jwt["Audience"],
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(key))
+    };
+});
+
+// Register TokenService
+builder.Services.AddScoped<ITokenService, TokenService>();
 
 //Repository Registrations
 builder.Services.AddScoped<IRoomTypeRepository, RoomTypeRepository>();
@@ -49,6 +84,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
 app.Run();

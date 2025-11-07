@@ -44,11 +44,19 @@ namespace Bookify.Data.Seeder
                     FullName = "System Administrator",
                     Address = "HQ",
                     NationalId = "00000000000000",
-                    Nationality = "N/A"
+                    Nationality = "N/A",
+                    BirthDate = new DateTime(1980, 1, 1) // assign a valid value
                 };
 
-                _userManager.CreateAsync(admin, "Admin@123").Wait();
-                _userManager.AddToRoleAsync(admin, "Admin").Wait();
+                var result = _userManager.CreateAsync(admin, "Admin@123").Result;
+                if (result.Succeeded)
+                {
+                    _userManager.AddToRoleAsync(admin, "Admin").Wait();
+                }
+                else
+                {
+                    // Log result.Errors
+                }
             }
 
             _context.SaveChanges();

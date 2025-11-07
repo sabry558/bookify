@@ -9,16 +9,16 @@ namespace Bookify.Models
         [Required, MaxLength(100)]
         public string FullName { get; set; }
         
-        [Required, MaxLength(100)]
-        public string Address { get; set; }
+        [MaxLength(100)]
+        public string? Address { get; set; }
 
-        [Required]
+        [Required , MaxLength(20)]
         public string NationalId {  get; set; }
 
-        [MaxLength(50)]
+        [Required , MaxLength(50)]
         public string Nationality{get; set; }
 
-        [DataType(DataType.Date)]
+        [Required , DataType(DataType.Date)]
         public DateTime? BirthDate { get; set; }
     }
 }
