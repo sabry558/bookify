@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "A:\\bookify\\Bookify\\Bookify\\Bookify.csproj": {}
+    "E:\\Courses\\Full Stack Journey (.Net & Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Bookify.csproj": {}
   },
   "projects": {
-    "A:\\bookify\\Bookify\\Bookify\\Bookify.csproj": {
+    "E:\\Courses\\Full Stack Journey (.Net & Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Bookify.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "A:\\bookify\\Bookify\\Bookify\\Bookify.csproj",
+        "projectUniqueName": "E:\\Courses\\Full Stack Journey (.Net & Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Bookify.csproj",
         "projectName": "Bookify",
-        "projectPath": "A:\\bookify\\Bookify\\Bookify\\Bookify.csproj",
-        "packagesPath": "C:\\Users\\20155\\.nuget\\packages\\",
-        "outputPath": "A:\\bookify\\Bookify\\Bookify\\obj\\",
+        "projectPath": "E:\\Courses\\Full Stack Journey (.Net & Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Bookify.csproj",
+        "packagesPath": "C:\\Users\\omarm\\.nuget\\packages\\",
+        "outputPath": "E:\\Courses\\Full Stack Journey (.Net & Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\20155\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\omarm\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -54,9 +55,21 @@
               "target": "Package",
               "version": "[8.0.21, )"
             },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.21, )"
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.10, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -82,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -30,11 +30,13 @@ public class UnitOfWork : IUnitOfWork
         Medias = new MediaRepository(_context);
         Payments = new PaymentRepository(_context);
         Users = new ApplicationUserRepository(_userManager);
-
-
     }
     public async Task SaveAsync()
     {
        await _context.SaveChangesAsync();
+    }
+    public void Dispose()
+    {
+        _context.Dispose();
     }
 }

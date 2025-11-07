@@ -16,6 +16,11 @@ namespace Bookify.Models
         public PaymentStatus Status { get; set; }
 
         [Required]
+        public decimal Amount { get; set; }   
+
+        public DateTime PaymentDate { get; set; } = DateTime.Now; 
+
+        [Required]
         public int ReservationId { get; set; }
 
         [ForeignKey("ReservationId")]

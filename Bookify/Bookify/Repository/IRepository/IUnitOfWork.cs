@@ -11,4 +11,6 @@ public interface IUnitOfWork
 
     IApplicationUserRepository Users { get; }  
     Task SaveAsync();
+
+    void Dispose();
 }

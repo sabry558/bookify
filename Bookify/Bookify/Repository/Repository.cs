@@ -1,52 +1,61 @@
 ﻿using Bookify.Repository.IRepository;
 using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq.Expressions;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
-namespace Bookify.Repository
+public class Repository<T, TKey> : IRepository<T, TKey> where T : class
 {
-    public class Repository<T, TKey> : IRepository<T, TKey> where T : class
+    protected readonly AppDbContext _db;
+    internal DbSet<T> dbSet; 
+
+    public Repository(AppDbContext db)
     {
-        protected readonly AppDbContext _context;
-        private readonly DbSet<T> _dbSet;
+        _db = db;
+        dbSet = _db.Set<T>(); 
+    }
 
-        public Repository(AppDbContext context)
-        {
-            _context = context;
-            _dbSet = _context.Set<T>();
-        }
+   public async Task<IEnumerable<T>> GetAllAsync(
+       Expression<Func<T, bool>>? filter = null,
+       params Expression<Func<T, object>>[] includeProperties)
+   {
+      IQueryable<T> query = dbSet;
 
-        public async Task<IEnumerable<T>> GetAllAsync()
-        {
-            return await _dbSet.ToListAsync();
-        }
+       if (filter != null)
+           query = query.Where(filter);
 
-        public async Task<T?> GetByIdAsync(TKey id)
-        {
-            return await _dbSet.FindAsync(id);
-        }
+       foreach (var includeProperty in includeProperties)
+           query = query.Include(includeProperty);
 
-        public async Task AddAsync(T entity)
-        {
-            await _dbSet.AddAsync(entity);
-        }
+       return await query.ToListAsync();
+   }
 
-        public Task UpdateAsync(T entity)
-        {
-            _dbSet.Update(entity);
-            return Task.CompletedTask;
-        }
+   public async Task<T?> GetByIdAsync(TKey id, bool tracked = true)
+   {
+           if (tracked)
+                  return await dbSet.FindAsync(id);
+    
+          return await dbSet.AsNoTracking().FirstOrDefaultAsync(e => EF.Property<TKey>(e, "Id")!.Equals(id));
+       }
 
-        public async Task DeleteAsync(TKey id)
-        {
-            var entity = await _dbSet.FindAsync(id);
-            if (entity != null)
-            {
-                _dbSet.Remove(entity);
-            }
-        }
-        public async Task<IEnumerable<T>> FindAsync(Expression<Func<T, bool>> predicate)
-        {
-            return await _dbSet.Where(predicate).ToListAsync();
-        }
+
+    public async Task AddAsync(T entity) => await dbSet.AddAsync(entity);
+
+
+    public Task UpdateAsync(T entity) { dbSet.Update(entity); return Task.CompletedTask; }
+
+
+    public async Task DeleteAsync(TKey id)
+    {
+        var entity = await GetByIdAsync(id);
+        if (entity != null)
+        dbSet.Remove(entity);
+    }
+
+
+    public async Task<IEnumerable<T>> FindAsync(Expression<Func<T, bool>> predicate)
+    {
+        return await dbSet.Where(predicate).ToListAsync();
     }
 }
