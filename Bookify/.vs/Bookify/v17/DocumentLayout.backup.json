@@ -1,210 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\",
+  "WorkspaceRootPath": "A:\\bookify\\Bookify\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|e:\\courses\\full stack journey (.net \u0026 angular)\\depi\\project\\bookify\\bookify\\bookify\\services\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\services\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|a:\\bookify\\bookify\\bookify\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|e:\\courses\\full stack journey (.net \u0026 angular)\\depi\\project\\bookify\\bookify\\bookify\\models\\media.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\models\\media.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|e:\\courses\\full stack journey (.net \u0026 angular)\\depi\\project\\bookify\\bookify\\bookify\\models\\enums\\mediatype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\models\\enums\\mediatype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|e:\\courses\\full stack journey (.net \u0026 angular)\\depi\\project\\bookify\\bookify\\bookify\\controllers\\mediacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\controllers\\mediacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|e:\\courses\\full stack journey (.net \u0026 angular)\\depi\\project\\bookify\\bookify\\bookify\\dtos\\medias\\mediareaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\dtos\\medias\\mediareaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|e:\\courses\\full stack journey (.net \u0026 angular)\\depi\\project\\bookify\\bookify\\bookify\\dtos\\medias\\mediacreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\dtos\\medias\\mediacreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|e:\\courses\\full stack journey (.net \u0026 angular)\\depi\\project\\bookify\\bookify\\bookify\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|e:\\courses\\full stack journey (.net \u0026 angular)\\depi\\project\\bookify\\bookify\\bookify\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|e:\\courses\\full stack journey (.net \u0026 angular)\\depi\\project\\bookify\\bookify\\bookify\\dtos\\rooms\\roomreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\dtos\\rooms\\roomreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|e:\\courses\\full stack journey (.net \u0026 angular)\\depi\\project\\bookify\\bookify\\bookify\\dtos\\rooms\\roomcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\dtos\\rooms\\roomcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|e:\\courses\\full stack journey (.net \u0026 angular)\\depi\\project\\bookify\\bookify\\bookify\\controllers\\roomtypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\controllers\\roomtypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|e:\\courses\\full stack journey (.net \u0026 angular)\\depi\\project\\bookify\\bookify\\bookify\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|e:\\courses\\full stack journey (.net \u0026 angular)\\depi\\project\\bookify\\bookify\\bookify\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|e:\\courses\\full stack journey (.net \u0026 angular)\\depi\\project\\bookify\\bookify\\bookify\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|e:\\courses\\full stack journey (.net \u0026 angular)\\depi\\project\\bookify\\bookify\\bookify\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|e:\\courses\\full stack journey (.net \u0026 angular)\\depi\\project\\bookify\\bookify\\bookify\\repository\\roomtyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\repository\\roomtyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|e:\\courses\\full stack journey (.net \u0026 angular)\\depi\\project\\bookify\\bookify\\bookify\\repository\\roomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\repository\\roomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|e:\\courses\\full stack journey (.net \u0026 angular)\\depi\\project\\bookify\\bookify\\bookify\\repository\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|a:\\bookify\\bookify\\bookify\\repository\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\repository\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|e:\\courses\\full stack journey (.net \u0026 angular)\\depi\\project\\bookify\\bookify\\bookify\\repository\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\repository\\paymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|a:\\bookify\\bookify\\bookify\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|e:\\courses\\full stack journey (.net \u0026 angular)\\depi\\project\\bookify\\bookify\\bookify\\repository\\mediarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\repository\\mediarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|a:\\bookify\\bookify\\bookify\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|e:\\courses\\full stack journey (.net \u0026 angular)\\depi\\project\\bookify\\bookify\\bookify\\repository\\applicationuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\repository\\applicationuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|e:\\courses\\full stack journey (.net \u0026 angular)\\depi\\project\\bookify\\bookify\\bookify\\repository\\irepository\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\repository\\irepository\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|e:\\courses\\full stack journey (.net \u0026 angular)\\depi\\project\\bookify\\bookify\\bookify\\repository\\irepository\\iroomtyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\repository\\irepository\\iroomtyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|e:\\courses\\full stack journey (.net \u0026 angular)\\depi\\project\\bookify\\bookify\\bookify\\repository\\irepository\\iroomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\repository\\irepository\\iroomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|e:\\courses\\full stack journey (.net \u0026 angular)\\depi\\project\\bookify\\bookify\\bookify\\repository\\irepository\\ireservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|a:\\bookify\\bookify\\bookify\\repository\\irepository\\ireservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\repository\\irepository\\ireservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|e:\\courses\\full stack journey (.net \u0026 angular)\\depi\\project\\bookify\\bookify\\bookify\\repository\\irepository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\repository\\irepository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|a:\\bookify\\bookify\\bookify\\dtos\\reservation\\reservationreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\dtos\\reservation\\reservationreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|e:\\courses\\full stack journey (.net \u0026 angular)\\depi\\project\\bookify\\bookify\\bookify\\repository\\irepository\\ipaymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\repository\\irepository\\ipaymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|a:\\bookify\\bookify\\bookify\\repository\\roomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\repository\\roomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|e:\\courses\\full stack journey (.net \u0026 angular)\\depi\\project\\bookify\\bookify\\bookify\\repository\\irepository\\imediarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\repository\\irepository\\imediarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|a:\\bookify\\bookify\\bookify\\dtos\\reservation\\reservationcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\dtos\\reservation\\reservationcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|e:\\courses\\full stack journey (.net \u0026 angular)\\depi\\project\\bookify\\bookify\\bookify\\repository\\irepository\\iapplicationuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\repository\\irepository\\iapplicationuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|e:\\courses\\full stack journey (.net \u0026 angular)\\depi\\project\\bookify\\bookify\\bookify\\models\\roomtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\models\\roomtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|e:\\courses\\full stack journey (.net \u0026 angular)\\depi\\project\\bookify\\bookify\\bookify\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|e:\\courses\\full stack journey (.net \u0026 angular)\\depi\\project\\bookify\\bookify\\bookify\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|a:\\bookify\\bookify\\bookify\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|e:\\courses\\full stack journey (.net \u0026 angular)\\depi\\project\\bookify\\bookify\\bookify\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|e:\\courses\\full stack journey (.net \u0026 angular)\\depi\\project\\bookify\\bookify\\bookify\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|e:\\courses\\full stack journey (.net \u0026 angular)\\depi\\project\\bookify\\bookify\\bookify\\models\\enums\\roomstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\models\\enums\\roomstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|e:\\courses\\full stack journey (.net \u0026 angular)\\depi\\project\\bookify\\bookify\\bookify\\models\\enums\\reservationstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\models\\enums\\reservationstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|e:\\courses\\full stack journey (.net \u0026 angular)\\depi\\project\\bookify\\bookify\\bookify\\dtos\\roomtypes\\roomtypereaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\dtos\\roomtypes\\roomtypereaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|e:\\courses\\full stack journey (.net \u0026 angular)\\depi\\project\\bookify\\bookify\\bookify\\dtos\\roomtypes\\roomtypecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\dtos\\roomtypes\\roomtypecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|e:\\courses\\full stack journey (.net \u0026 angular)\\depi\\project\\bookify\\bookify\\bookify\\dtos\\auth\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\dtos\\auth\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|e:\\courses\\full stack journey (.net \u0026 angular)\\depi\\project\\bookify\\bookify\\bookify\\dtos\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\dtos\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|e:\\courses\\full stack journey (.net \u0026 angular)\\depi\\project\\bookify\\bookify\\bookify\\dtos\\auth\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\dtos\\auth\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|e:\\courses\\full stack journey (.net \u0026 angular)\\depi\\project\\bookify\\bookify\\bookify\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|e:\\courses\\full stack journey (.net \u0026 angular)\\depi\\project\\bookify\\bookify\\bookify\\data\\seeder\\idbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\data\\seeder\\idbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|e:\\courses\\full stack journey (.net \u0026 angular)\\depi\\project\\bookify\\bookify\\bookify\\data\\seeder\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\data\\seeder\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|e:\\courses\\full stack journey (.net \u0026 angular)\\depi\\project\\bookify\\bookify\\bookify\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|e:\\courses\\full stack journey (.net \u0026 angular)\\depi\\project\\bookify\\bookify\\bookify\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|e:\\courses\\full stack journey (.net \u0026 angular)\\depi\\project\\bookify\\bookify\\bookify\\migrations\\20251107182336_syncdatabasefix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\migrations\\20251107182336_syncdatabasefix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Migrations\\20251107160850_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Bookify\\Migrations\\20251107160850_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|e:\\courses\\full stack journey (.net \u0026 angular)\\depi\\project\\bookify\\bookify\\bookify\\migrations\\20251107162111_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\migrations\\20251107162111_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|e:\\courses\\full stack journey (.net \u0026 angular)\\depi\\project\\bookify\\bookify\\bookify\\migrations\\20251107165936_seedsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\migrations\\20251107165936_seedsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|e:\\courses\\full stack journey (.net \u0026 angular)\\depi\\project\\bookify\\bookify\\bookify\\migrations\\20251107183118_addressrequiredfix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{607C2EDB-044A-4241-B5A6-16652893CB74}|Bookify\\Bookify.csproj|solutionrelative:bookify\\migrations\\20251107183118_addressrequiredfix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -214,664 +46,124 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RoomController.cs",
+              "DocumentMoniker": "A:\\bookify\\Bookify\\Bookify\\Controllers\\RoomController.cs",
+              "RelativeDocumentMoniker": "Bookify\\Controllers\\RoomController.cs",
+              "ToolTip": "A:\\bookify\\Bookify\\Bookify\\Controllers\\RoomController.cs",
+              "RelativeToolTip": "Bookify\\Controllers\\RoomController.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T15:17:38.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MediaController.cs",
-              "DocumentMoniker": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Controllers\\MediaController.cs",
-              "RelativeDocumentMoniker": "Bookify\\Controllers\\MediaController.cs",
-              "ToolTip": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Controllers\\MediaController.cs",
-              "RelativeToolTip": "Bookify\\Controllers\\MediaController.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAowDoAAAABAAAAAAAAAA==",
+              "Title": "Repository.cs",
+              "DocumentMoniker": "A:\\bookify\\Bookify\\Bookify\\Repository\\Repository.cs",
+              "RelativeDocumentMoniker": "Bookify\\Repository\\Repository.cs",
+              "ToolTip": "A:\\bookify\\Bookify\\Bookify\\Repository\\Repository.cs",
+              "RelativeToolTip": "Bookify\\Repository\\Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T17:23:34.593Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MediaReadDTO.cs",
-              "DocumentMoniker": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\DTOs\\Medias\\MediaReadDTO.cs",
-              "RelativeDocumentMoniker": "Bookify\\DTOs\\Medias\\MediaReadDTO.cs",
-              "ToolTip": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\DTOs\\Medias\\MediaReadDTO.cs",
-              "RelativeToolTip": "Bookify\\DTOs\\Medias\\MediaReadDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T17:08:37.516Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MediaCreateDTO.cs",
-              "DocumentMoniker": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\DTOs\\Medias\\MediaCreateDTO.cs",
-              "RelativeDocumentMoniker": "Bookify\\DTOs\\Medias\\MediaCreateDTO.cs",
-              "ToolTip": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\DTOs\\Medias\\MediaCreateDTO.cs",
-              "RelativeToolTip": "Bookify\\DTOs\\Medias\\MediaCreateDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T17:05:14.21Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Services\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "Bookify\\Services\\MappingProfile.cs",
-              "ToolTip": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Services\\MappingProfile.cs",
-              "RelativeToolTip": "Bookify\\Services\\MappingProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T03:59:27.181Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ITokenService.cs",
-              "DocumentMoniker": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Services\\ITokenService.cs",
-              "RelativeDocumentMoniker": "Bookify\\Services\\ITokenService.cs",
-              "ToolTip": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Services\\ITokenService.cs",
-              "RelativeToolTip": "Bookify\\Services\\ITokenService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T17:56:59.406Z",
+              "WhenOpened": "2025-11-11T14:37:12.014Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Media.cs",
-              "DocumentMoniker": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Models\\Media.cs",
-              "RelativeDocumentMoniker": "Bookify\\Models\\Media.cs",
-              "ToolTip": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Models\\Media.cs",
-              "RelativeToolTip": "Bookify\\Models\\Media.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
+              "Title": "ReservationRepository.cs",
+              "DocumentMoniker": "A:\\bookify\\Bookify\\Bookify\\Repository\\ReservationRepository.cs",
+              "RelativeDocumentMoniker": "Bookify\\Repository\\ReservationRepository.cs",
+              "ToolTip": "A:\\bookify\\Bookify\\Bookify\\Repository\\ReservationRepository.cs*",
+              "RelativeToolTip": "Bookify\\Repository\\ReservationRepository.cs*",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T13:07:02.59Z",
+              "WhenOpened": "2025-11-11T14:34:01.565Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MediaType.cs",
-              "DocumentMoniker": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Models\\Enums\\MediaType.cs",
-              "RelativeDocumentMoniker": "Bookify\\Models\\Enums\\MediaType.cs",
-              "ToolTip": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Models\\Enums\\MediaType.cs",
-              "RelativeToolTip": "Bookify\\Models\\Enums\\MediaType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "IReservationRepository.cs",
+              "DocumentMoniker": "A:\\bookify\\Bookify\\Bookify\\Repository\\IRepository\\IReservationRepository.cs",
+              "RelativeDocumentMoniker": "Bookify\\Repository\\IRepository\\IReservationRepository.cs",
+              "ToolTip": "A:\\bookify\\Bookify\\Bookify\\Repository\\IRepository\\IReservationRepository.cs*",
+              "RelativeToolTip": "Bookify\\Repository\\IRepository\\IReservationRepository.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T13:06:54.493Z",
+              "WhenOpened": "2025-11-11T14:33:27.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ReservationReadDto.cs",
+              "DocumentMoniker": "A:\\bookify\\Bookify\\Bookify\\DTOs\\Reservation\\ReservationReadDto.cs",
+              "RelativeDocumentMoniker": "Bookify\\DTOs\\Reservation\\ReservationReadDto.cs",
+              "ToolTip": "A:\\bookify\\Bookify\\Bookify\\DTOs\\Reservation\\ReservationReadDto.cs*",
+              "RelativeToolTip": "Bookify\\DTOs\\Reservation\\ReservationReadDto.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T14:18:36.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RoomRepository.cs",
+              "DocumentMoniker": "A:\\bookify\\Bookify\\Bookify\\Repository\\RoomRepository.cs",
+              "RelativeDocumentMoniker": "Bookify\\Repository\\RoomRepository.cs",
+              "ToolTip": "A:\\bookify\\Bookify\\Bookify\\Repository\\RoomRepository.cs",
+              "RelativeToolTip": "Bookify\\Repository\\RoomRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T14:12:03.095Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "RoomController.cs",
-              "DocumentMoniker": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Controllers\\RoomController.cs",
-              "RelativeDocumentMoniker": "Bookify\\Controllers\\RoomController.cs",
-              "ToolTip": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Controllers\\RoomController.cs",
-              "RelativeToolTip": "Bookify\\Controllers\\RoomController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
+              "Title": "ReservationCreateDto.cs",
+              "DocumentMoniker": "A:\\bookify\\Bookify\\Bookify\\DTOs\\Reservation\\ReservationCreateDto.cs",
+              "RelativeDocumentMoniker": "Bookify\\DTOs\\Reservation\\ReservationCreateDto.cs",
+              "ToolTip": "A:\\bookify\\Bookify\\Bookify\\DTOs\\Reservation\\ReservationCreateDto.cs*",
+              "RelativeToolTip": "Bookify\\DTOs\\Reservation\\ReservationCreateDto.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T04:09:57.837Z",
+              "WhenOpened": "2025-11-11T14:11:24.197Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "RoomReadDTO.cs",
-              "DocumentMoniker": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\DTOs\\Rooms\\RoomReadDTO.cs",
-              "RelativeDocumentMoniker": "Bookify\\DTOs\\Rooms\\RoomReadDTO.cs",
-              "ToolTip": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\DTOs\\Rooms\\RoomReadDTO.cs",
-              "RelativeToolTip": "Bookify\\DTOs\\Rooms\\RoomReadDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T04:06:48.904Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "RoomCreateDTO.cs",
-              "DocumentMoniker": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\DTOs\\Rooms\\RoomCreateDTO.cs",
-              "RelativeDocumentMoniker": "Bookify\\DTOs\\Rooms\\RoomCreateDTO.cs",
-              "ToolTip": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\DTOs\\Rooms\\RoomCreateDTO.cs",
-              "RelativeToolTip": "Bookify\\DTOs\\Rooms\\RoomCreateDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T04:06:16.969Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Repository\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "Bookify\\Repository\\UnitOfWork.cs",
-              "ToolTip": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Repository\\UnitOfWork.cs",
-              "RelativeToolTip": "Bookify\\Repository\\UnitOfWork.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAuwCoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T13:38:08.176Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "RoomTypeRepository.cs",
-              "DocumentMoniker": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Repository\\RoomTypeRepository.cs",
-              "RelativeDocumentMoniker": "Bookify\\Repository\\RoomTypeRepository.cs",
-              "ToolTip": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Repository\\RoomTypeRepository.cs",
-              "RelativeToolTip": "Bookify\\Repository\\RoomTypeRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T13:47:00.4Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "TokenService.cs",
-              "DocumentMoniker": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Services\\TokenService.cs",
-              "RelativeDocumentMoniker": "Bookify\\Services\\TokenService.cs",
-              "ToolTip": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Services\\TokenService.cs",
-              "RelativeToolTip": "Bookify\\Services\\TokenService.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAUwDsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T17:57:22.48Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Program.cs",
-              "RelativeDocumentMoniker": "Bookify\\Program.cs",
-              "ToolTip": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Program.cs",
-              "RelativeToolTip": "Bookify\\Program.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAAADkAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T13:41:32.728Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "RoomTypeController.cs",
-              "DocumentMoniker": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Controllers\\RoomTypeController.cs",
-              "RelativeDocumentMoniker": "Bookify\\Controllers\\RoomTypeController.cs",
-              "ToolTip": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Controllers\\RoomTypeController.cs",
-              "RelativeToolTip": "Bookify\\Controllers\\RoomTypeController.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAuwE8AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T17:42:17.208Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "RoomRepository.cs",
-              "DocumentMoniker": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Repository\\RoomRepository.cs",
-              "RelativeDocumentMoniker": "Bookify\\Repository\\RoomRepository.cs",
-              "ToolTip": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Repository\\RoomRepository.cs",
-              "RelativeToolTip": "Bookify\\Repository\\RoomRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T13:46:10.215Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Repository\\Repository.cs",
-              "RelativeDocumentMoniker": "Bookify\\Repository\\Repository.cs",
-              "ToolTip": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Repository\\Repository.cs",
-              "RelativeToolTip": "Bookify\\Repository\\Repository.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAwCQAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T13:33:55.19Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ReservationRepository.cs",
-              "DocumentMoniker": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Repository\\ReservationRepository.cs",
-              "RelativeDocumentMoniker": "Bookify\\Repository\\ReservationRepository.cs",
-              "ToolTip": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Repository\\ReservationRepository.cs",
-              "RelativeToolTip": "Bookify\\Repository\\ReservationRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAYwBsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T13:47:51.706Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "PaymentRepository.cs",
-              "DocumentMoniker": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Repository\\PaymentRepository.cs",
-              "RelativeDocumentMoniker": "Bookify\\Repository\\PaymentRepository.cs",
-              "ToolTip": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Repository\\PaymentRepository.cs",
-              "RelativeToolTip": "Bookify\\Repository\\PaymentRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T13:26:08.103Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "MediaRepository.cs",
-              "DocumentMoniker": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Repository\\MediaRepository.cs",
-              "RelativeDocumentMoniker": "Bookify\\Repository\\MediaRepository.cs",
-              "ToolTip": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Repository\\MediaRepository.cs",
-              "RelativeToolTip": "Bookify\\Repository\\MediaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T13:27:48.545Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ApplicationUserRepository.cs",
-              "DocumentMoniker": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Repository\\ApplicationUserRepository.cs",
-              "RelativeDocumentMoniker": "Bookify\\Repository\\ApplicationUserRepository.cs",
-              "ToolTip": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Repository\\ApplicationUserRepository.cs",
-              "RelativeToolTip": "Bookify\\Repository\\ApplicationUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T13:35:46.274Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Repository\\IRepository\\IUnitOfWork.cs",
-              "RelativeDocumentMoniker": "Bookify\\Repository\\IRepository\\IUnitOfWork.cs",
-              "ToolTip": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Repository\\IRepository\\IUnitOfWork.cs",
-              "RelativeToolTip": "Bookify\\Repository\\IRepository\\IUnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T13:36:25.823Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "IRoomTypeRepository.cs",
-              "DocumentMoniker": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Repository\\IRepository\\IRoomTypeRepository.cs",
-              "RelativeDocumentMoniker": "Bookify\\Repository\\IRepository\\IRoomTypeRepository.cs",
-              "ToolTip": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Repository\\IRepository\\IRoomTypeRepository.cs",
-              "RelativeToolTip": "Bookify\\Repository\\IRepository\\IRoomTypeRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T13:40:28.826Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "IRoomRepository.cs",
-              "DocumentMoniker": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Repository\\IRepository\\IRoomRepository.cs",
-              "RelativeDocumentMoniker": "Bookify\\Repository\\IRepository\\IRoomRepository.cs",
-              "ToolTip": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Repository\\IRepository\\IRoomRepository.cs",
-              "RelativeToolTip": "Bookify\\Repository\\IRepository\\IRoomRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T13:40:06.181Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "IReservationRepository.cs",
-              "DocumentMoniker": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Repository\\IRepository\\IReservationRepository.cs",
-              "RelativeDocumentMoniker": "Bookify\\Repository\\IRepository\\IReservationRepository.cs",
-              "ToolTip": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Repository\\IRepository\\IReservationRepository.cs",
-              "RelativeToolTip": "Bookify\\Repository\\IRepository\\IReservationRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T13:23:18.841Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Repository\\IRepository\\IRepository.cs",
-              "RelativeDocumentMoniker": "Bookify\\Repository\\IRepository\\IRepository.cs",
-              "ToolTip": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Repository\\IRepository\\IRepository.cs",
-              "RelativeToolTip": "Bookify\\Repository\\IRepository\\IRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T13:25:22.83Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "IPaymentRepository.cs",
-              "DocumentMoniker": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Repository\\IRepository\\IPaymentRepository.cs",
-              "RelativeDocumentMoniker": "Bookify\\Repository\\IRepository\\IPaymentRepository.cs",
-              "ToolTip": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Repository\\IRepository\\IPaymentRepository.cs",
-              "RelativeToolTip": "Bookify\\Repository\\IRepository\\IPaymentRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T13:41:07.883Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "IMediaRepository.cs",
-              "DocumentMoniker": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Repository\\IRepository\\IMediaRepository.cs",
-              "RelativeDocumentMoniker": "Bookify\\Repository\\IRepository\\IMediaRepository.cs",
-              "ToolTip": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Repository\\IRepository\\IMediaRepository.cs",
-              "RelativeToolTip": "Bookify\\Repository\\IRepository\\IMediaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T13:27:21.387Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "IApplicationUserRepository.cs",
-              "DocumentMoniker": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Repository\\IRepository\\IApplicationUserRepository.cs",
-              "RelativeDocumentMoniker": "Bookify\\Repository\\IRepository\\IApplicationUserRepository.cs",
-              "ToolTip": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Repository\\IRepository\\IApplicationUserRepository.cs",
-              "RelativeToolTip": "Bookify\\Repository\\IRepository\\IApplicationUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T13:35:14.939Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "RoomType.cs",
-              "DocumentMoniker": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Models\\RoomType.cs",
-              "RelativeDocumentMoniker": "Bookify\\Models\\RoomType.cs",
-              "ToolTip": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Models\\RoomType.cs",
-              "RelativeToolTip": "Bookify\\Models\\RoomType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T13:11:35.992Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Room.cs",
-              "DocumentMoniker": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Models\\Room.cs",
-              "RelativeDocumentMoniker": "Bookify\\Models\\Room.cs",
-              "ToolTip": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Models\\Room.cs",
-              "RelativeToolTip": "Bookify\\Models\\Room.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T12:57:27.543Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
               "Title": "Reservation.cs",
-              "DocumentMoniker": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Models\\Reservation.cs",
+              "DocumentMoniker": "A:\\bookify\\Bookify\\Bookify\\Models\\Reservation.cs",
               "RelativeDocumentMoniker": "Bookify\\Models\\Reservation.cs",
-              "ToolTip": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Models\\Reservation.cs",
+              "ToolTip": "A:\\bookify\\Bookify\\Bookify\\Models\\Reservation.cs",
               "RelativeToolTip": "Bookify\\Models\\Reservation.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA4wCUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T13:05:38.043Z",
+              "WhenOpened": "2025-11-11T14:06:53.645Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Payment.cs",
-              "DocumentMoniker": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Models\\Payment.cs",
-              "RelativeDocumentMoniker": "Bookify\\Models\\Payment.cs",
-              "ToolTip": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Models\\Payment.cs",
-              "RelativeToolTip": "Bookify\\Models\\Payment.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAcwB8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ReservationController.cs",
+              "DocumentMoniker": "A:\\bookify\\Bookify\\Bookify\\Controllers\\ReservationController.cs",
+              "RelativeDocumentMoniker": "Bookify\\Controllers\\ReservationController.cs",
+              "ToolTip": "A:\\bookify\\Bookify\\Bookify\\Controllers\\ReservationController.cs",
+              "RelativeToolTip": "Bookify\\Controllers\\ReservationController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T13:04:14.277Z",
+              "WhenOpened": "2025-11-11T14:04:01.714Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Models\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "Bookify\\Models\\ApplicationUser.cs",
-              "ToolTip": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Models\\ApplicationUser.cs",
-              "RelativeToolTip": "Bookify\\Models\\ApplicationUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T13:29:44.925Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "RoomStatus.cs",
-              "DocumentMoniker": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Models\\Enums\\RoomStatus.cs",
-              "RelativeDocumentMoniker": "Bookify\\Models\\Enums\\RoomStatus.cs",
-              "ToolTip": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Models\\Enums\\RoomStatus.cs",
-              "RelativeToolTip": "Bookify\\Models\\Enums\\RoomStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T12:59:17.519Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "ReservationStatus.cs",
-              "DocumentMoniker": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Models\\Enums\\ReservationStatus.cs",
-              "RelativeDocumentMoniker": "Bookify\\Models\\Enums\\ReservationStatus.cs",
-              "ToolTip": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Models\\Enums\\ReservationStatus.cs",
-              "RelativeToolTip": "Bookify\\Models\\Enums\\ReservationStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T13:05:28.853Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "RoomTypeReadDto.cs",
-              "DocumentMoniker": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\DTOs\\RoomTypes\\RoomTypeReadDto.cs",
-              "RelativeDocumentMoniker": "Bookify\\DTOs\\RoomTypes\\RoomTypeReadDto.cs",
-              "ToolTip": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\DTOs\\RoomTypes\\RoomTypeReadDto.cs",
-              "RelativeToolTip": "Bookify\\DTOs\\RoomTypes\\RoomTypeReadDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T17:45:30.673Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "RoomTypeCreateDto.cs",
-              "DocumentMoniker": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\DTOs\\RoomTypes\\RoomTypeCreateDto.cs",
-              "RelativeDocumentMoniker": "Bookify\\DTOs\\RoomTypes\\RoomTypeCreateDto.cs",
-              "ToolTip": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\DTOs\\RoomTypes\\RoomTypeCreateDto.cs",
-              "RelativeToolTip": "Bookify\\DTOs\\RoomTypes\\RoomTypeCreateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T17:44:29.84Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "RegisterDto.cs",
-              "DocumentMoniker": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\DTOs\\Auth\\RegisterDto.cs",
-              "RelativeDocumentMoniker": "Bookify\\DTOs\\Auth\\RegisterDto.cs",
-              "ToolTip": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\DTOs\\Auth\\RegisterDto.cs",
-              "RelativeToolTip": "Bookify\\DTOs\\Auth\\RegisterDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T17:59:53.278Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "LoginDto.cs",
-              "DocumentMoniker": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\DTOs\\Auth\\LoginDto.cs",
-              "RelativeDocumentMoniker": "Bookify\\DTOs\\Auth\\LoginDto.cs",
-              "ToolTip": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\DTOs\\Auth\\LoginDto.cs",
-              "RelativeToolTip": "Bookify\\DTOs\\Auth\\LoginDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T18:00:24.59Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "AuthResponseDto.cs",
-              "DocumentMoniker": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\DTOs\\Auth\\AuthResponseDto.cs",
-              "RelativeDocumentMoniker": "Bookify\\DTOs\\Auth\\AuthResponseDto.cs",
-              "ToolTip": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\DTOs\\Auth\\AuthResponseDto.cs",
-              "RelativeToolTip": "Bookify\\DTOs\\Auth\\AuthResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T18:00:53.658Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Bookify\\Data\\AppDbContext.cs",
-              "ToolTip": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Bookify\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAUwD4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T13:07:46.205Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "IDbInitializer.cs",
-              "DocumentMoniker": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Data\\Seeder\\IDbInitializer.cs",
-              "RelativeDocumentMoniker": "Bookify\\Data\\Seeder\\IDbInitializer.cs",
-              "ToolTip": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Data\\Seeder\\IDbInitializer.cs",
-              "RelativeToolTip": "Bookify\\Data\\Seeder\\IDbInitializer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T16:55:39.222Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "DbInitializer.cs",
-              "DocumentMoniker": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Data\\Seeder\\DbInitializer.cs",
-              "RelativeDocumentMoniker": "Bookify\\Data\\Seeder\\DbInitializer.cs",
-              "ToolTip": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Data\\Seeder\\DbInitializer.cs",
-              "RelativeToolTip": "Bookify\\Data\\Seeder\\DbInitializer.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAUwEAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T16:46:23.073Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Bookify\\Controllers\\AuthController.cs",
-              "ToolTip": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Bookify\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAADwv0MAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T18:08:09.215Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "20251107183118_AddressRequiredFix.cs",
-              "DocumentMoniker": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Migrations\\20251107183118_AddressRequiredFix.cs",
-              "RelativeDocumentMoniker": "Bookify\\Migrations\\20251107183118_AddressRequiredFix.cs",
-              "ToolTip": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Migrations\\20251107183118_AddressRequiredFix.cs",
-              "RelativeToolTip": "Bookify\\Migrations\\20251107183118_AddressRequiredFix.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T18:31:18.698Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\appsettings.json",
-              "RelativeDocumentMoniker": "Bookify\\appsettings.json",
-              "ToolTip": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\appsettings.json",
-              "RelativeToolTip": "Bookify\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-07T13:58:54.46Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "20251107182336_SyncDatabaseFix.cs",
-              "DocumentMoniker": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Migrations\\20251107182336_SyncDatabaseFix.cs",
-              "RelativeDocumentMoniker": "Bookify\\Migrations\\20251107182336_SyncDatabaseFix.cs",
-              "ToolTip": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Migrations\\20251107182336_SyncDatabaseFix.cs",
-              "RelativeToolTip": "Bookify\\Migrations\\20251107182336_SyncDatabaseFix.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T18:23:36.598Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "20251107162111_InitialCreate.cs",
-              "DocumentMoniker": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Migrations\\20251107162111_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Bookify\\Migrations\\20251107162111_InitialCreate.cs",
-              "ToolTip": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Migrations\\20251107162111_InitialCreate.cs",
-              "RelativeToolTip": "Bookify\\Migrations\\20251107162111_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T16:21:12.251Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "20251107160850_InitialCreate.cs",
-              "DocumentMoniker": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Migrations\\20251107160850_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Bookify\\Migrations\\20251107160850_InitialCreate.cs",
-              "ToolTip": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Migrations\\20251107160850_InitialCreate.cs",
-              "RelativeToolTip": "Bookify\\Migrations\\20251107160850_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T16:08:50.276Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "20251107165936_SeedSetup.cs",
-              "DocumentMoniker": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Migrations\\20251107165936_SeedSetup.cs",
-              "RelativeDocumentMoniker": "Bookify\\Migrations\\20251107165936_SeedSetup.cs",
-              "ToolTip": "E:\\Courses\\Full Stack Journey (.Net \u0026 Angular)\\DEPI\\Project\\bookify\\Bookify\\Bookify\\Migrations\\20251107165936_SeedSetup.cs",
-              "RelativeToolTip": "Bookify\\Migrations\\20251107165936_SeedSetup.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T16:59:36.987Z"
             }
           ]
         }
