@@ -2,12 +2,12 @@
 
 namespace Bookify.DTOs.Rooms
 {
-    public class RoomCreateDTO   
+    public class RoomCreateDTO
     {
-        [Required]   
-        public string Name { get; set; }  
+        [Required]
+        public int RoomNumber { get; set; } 
 
-        [Required]   
-        public int RoomTypeId { get; set; }  
+        [Required]
+        public int RoomTypeId { get; set; }
     }
 }

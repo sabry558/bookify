@@ -1,17 +1,17 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Bookify.DTOs.Auth 
+namespace Bookify.DTOs.Auth
 {
     public class RegisterDto
     {
-        public string FullName { get; set; }
-        public string Email { get; set; }
-        public string Password { get; set; }
+        [Required] public required string FullName { get; set; } 
+        [Required, EmailAddress] public required string Email { get; set; } 
+        [Required] public required string Password { get; set; } 
 
-        public string? Address { get; set; } // Optional
+        public string? Address { get; set; } 
 
-        public string NationalId { get; set; }   // Required
-        public string Nationality { get; set; }  // Required
-        public DateTime BirthDate { get; set; }  // Required
+        [Required] public required string NationalId { get; set; } 
+        [Required] public required string Nationality { get; set; } 
+        [Required, DataType(DataType.Date)] public required DateTime BirthDate { get; set; } 
     }
 }
