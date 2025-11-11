@@ -9,7 +9,9 @@ using Bookify.Data.Seeder;
 using Microsoft.AspNetCore.Authentication.JwtBearer;   
 using Microsoft.IdentityModel.Tokens;                  
 using System.Text;                                     
-using Bookify.Services;                                
+using Bookify.Services;
+using AutoMapper; 
+using System.Reflection; 
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -52,6 +54,9 @@ builder.Services.AddAuthentication(options =>
 // Register TokenService
 builder.Services.AddScoped<ITokenService, TokenService>();
 
+// Register AutoMapper 
+builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly()); 
+
 //Repository Registrations
 builder.Services.AddScoped<IRoomTypeRepository, RoomTypeRepository>();
 builder.Services.AddScoped<IRoomRepository, RoomRepository>();
@@ -64,8 +69,35 @@ builder.Services.AddScoped<IApplicationUserRepository, ApplicationUserRepository
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IDbInitializer, DbInitializer>();
 builder.Services.AddControllers();            
-builder.Services.AddEndpointsApiExplorer();   
-builder.Services.AddSwaggerGen();             
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen(options =>
+{
+    // Add JWT Auth to Swagger  
+    options.AddSecurityDefinition("Bearer", new Microsoft.OpenApi.Models.OpenApiSecurityScheme
+    {
+        Name = "Authorization", 
+        Type = Microsoft.OpenApi.Models.SecuritySchemeType.Http, 
+        Scheme = "bearer", 
+        BearerFormat = "JWT", 
+        In = Microsoft.OpenApi.Models.ParameterLocation.Header, 
+        Description = "Enter: Bearer {your token}" 
+    });
+
+    options.AddSecurityRequirement(new Microsoft.OpenApi.Models.OpenApiSecurityRequirement 
+    {
+        {
+            new Microsoft.OpenApi.Models.OpenApiSecurityScheme
+            {
+                Reference = new Microsoft.OpenApi.Models.OpenApiReference
+                {
+                    Type = Microsoft.OpenApi.Models.ReferenceType.SecurityScheme, 
+                    Id = "Bearer" 
+                }
+            },
+            new string[] {}
+        }
+    });
+});
 
 var app = builder.Build();
 

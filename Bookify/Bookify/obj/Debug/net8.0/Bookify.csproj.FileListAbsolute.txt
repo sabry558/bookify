@@ -273,3 +273,5 @@ E:\Courses\Full Stack Journey (.Net & Angular)\DEPI\Project\bookify\Bookify\Book
 E:\Courses\Full Stack Journey (.Net & Angular)\DEPI\Project\bookify\Bookify\Bookify\obj\Debug\net8.0\Bookify.genruntimeconfig.cache
 E:\Courses\Full Stack Journey (.Net & Angular)\DEPI\Project\bookify\Bookify\Bookify\obj\Debug\net8.0\ref\Bookify.dll
 E:\Courses\Full Stack Journey (.Net & Angular)\DEPI\Project\bookify\Bookify\Bookify\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Courses\Full Stack Journey (.Net & Angular)\DEPI\Project\bookify\Bookify\Bookify\bin\Debug\net8.0\AutoMapper.dll
+E:\Courses\Full Stack Journey (.Net & Angular)\DEPI\Project\bookify\Bookify\Bookify\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

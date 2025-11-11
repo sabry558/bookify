@@ -31,13 +31,16 @@ public class Repository<T, TKey> : IRepository<T, TKey> where T : class
        return await query.ToListAsync();
    }
 
-   public async Task<T?> GetByIdAsync(TKey id, bool tracked = true)
-   {
-           if (tracked)
-                  return await dbSet.FindAsync(id);
-    
-          return await dbSet.AsNoTracking().FirstOrDefaultAsync(e => EF.Property<TKey>(e, "Id")!.Equals(id));
-       }
+    // FIXED: FindAsync was inconsistent when tracking or includes existed
+    public async Task<T?> GetByIdAsync(TKey id, bool tracked = true)
+    {
+        IQueryable<T> query = dbSet;
+
+        if (!tracked)
+            query = query.AsNoTracking();
+
+        return await query.FirstOrDefaultAsync(e => EF.Property<TKey>(e, "Id")!.Equals(id));
+    }
 
 
     public async Task AddAsync(T entity) => await dbSet.AddAsync(entity);
