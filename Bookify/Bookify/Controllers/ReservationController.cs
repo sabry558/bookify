@@ -24,7 +24,7 @@ namespace Bookify.Controllers
         {
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
             var result = await _service.CreateAsync(userId, dto);
-            if (result == null) return BadRequest("Invalid reservation data.");
+            if (result == null) return BadRequest("Invalid reservation data or room already reserved.");
             return Ok(result);
         }
 
@@ -46,9 +46,9 @@ namespace Bookify.Controllers
 
         [HttpPut("{id}/status")]
         [Authorize(Roles = "Admin,Employee")]
-        public async Task<IActionResult> UpdateStatus(int id, [FromBody] ReservationStatus status)
+        public async Task<IActionResult> UpdateStatus(int id, [FromBody] UpdateReservationStatusDTO dto)
         {
-            var success = await _service.UpdateStatusAsync(id, status);
+            var success = await _service.UpdateStatusAsync(id, dto.Status);
             if (!success) return NotFound();
             return Ok();
         }

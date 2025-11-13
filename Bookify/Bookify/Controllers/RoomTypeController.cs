@@ -17,26 +17,28 @@ namespace Bookify.Controllers
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
 
-        public RoomTypeController(IUnitOfWork unitOfWork, IMapper mapper) 
+        public RoomTypeController(IUnitOfWork unitOfWork, IMapper mapper)
         {
             _unitOfWork = unitOfWork;
-            _mapper = mapper; 
+            _mapper = mapper;
         }
 
         // GET: api/RoomType
         [HttpGet]
+        [AllowAnonymous] // allow anyone to list room types // added
         public async Task<IActionResult> GetAll()
         {
             var roomTypes = await _unitOfWork.RoomTypes.GetAllAsync();
 
             // map using AutoMapper
-            var result = _mapper.Map<IEnumerable<RoomTypeReadDTO>>(roomTypes); 
+            var result = _mapper.Map<IEnumerable<RoomTypeReadDTO>>(roomTypes);
 
             return Ok(result);
         }
 
         // GET: api/RoomType/{id}
         [HttpGet("{id}")]
+        [AllowAnonymous] 
         public async Task<IActionResult> GetById(int id)
         {
             var roomType = await _unitOfWork.RoomTypes.GetByIdAsync(id);
@@ -44,20 +46,21 @@ namespace Bookify.Controllers
                 return NotFound();
 
             // map to DTO using AutoMapper
-            var dto = _mapper.Map<RoomTypeReadDTO>(roomType); 
+            var dto = _mapper.Map<RoomTypeReadDTO>(roomType);
 
             return Ok(dto);
         }
 
         // POST: api/RoomType
         [HttpPost]
+        [Authorize(Roles = "Admin,Employee")] 
         public async Task<IActionResult> Create([FromBody] RoomTypeCreateDTO dto)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
             // map DTO → Entity using AutoMapper
-            var roomType = _mapper.Map<RoomType>(dto); 
+            var roomType = _mapper.Map<RoomType>(dto);
 
             await _unitOfWork.RoomTypes.AddAsync(roomType);
             await _unitOfWork.SaveAsync();
@@ -67,6 +70,7 @@ namespace Bookify.Controllers
 
         // PUT: api/RoomType/{id}
         [HttpPut("{id}")]
+        [Authorize(Roles = "Admin,Employee")] 
         public async Task<IActionResult> Update(int id, [FromBody] RoomTypeCreateDTO dto) //use create-dto shape for update
         {
             if (!ModelState.IsValid)
@@ -77,7 +81,7 @@ namespace Bookify.Controllers
                 return NotFound();
 
             // map DTO onto existing entity (preserve Id)
-            _mapper.Map(dto, existing); 
+            _mapper.Map(dto, existing);
 
             await _unitOfWork.RoomTypes.UpdateAsync(existing);
             await _unitOfWork.SaveAsync();
@@ -87,6 +91,7 @@ namespace Bookify.Controllers
 
         // DELETE: api/RoomType/{id}
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Admin,Employee")] 
         public async Task<IActionResult> Delete(int id)
         {
             var entity = await _unitOfWork.RoomTypes.GetByIdAsync(id);

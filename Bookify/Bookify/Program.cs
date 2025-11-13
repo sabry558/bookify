@@ -5,7 +5,7 @@ using Bookify.Repository;
 using Bookify.Repository.IRepository;
 using Bookify.Services;
 using Bookify.Services.Reservations;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authentication.JwtBearer;   
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -14,44 +14,46 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// DbContext
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(
         builder.Configuration.GetConnectionString("DefaultConnection")));
 
+// Identity
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
     .AddEntityFrameworkStores<AppDbContext>()
     .AddDefaultTokenProviders();
 
 // JWT CONFIGURATION (added)
 var jwt = builder.Configuration.GetSection("Jwt");
-var key = jwt.GetValue<string>("Key") ?? string.Empty;
+var key = jwt.GetValue<string>("Key") ?? string.Empty; 
 
-builder.Services.AddAuthentication(options =>
+builder.Services.AddAuthentication(options => 
 {
-    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme; 
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme; 
 })
 .AddJwtBearer(options =>
 {
-    options.RequireHttpsMetadata = false; // true in production
-    options.SaveToken = true;
-    options.TokenValidationParameters = new TokenValidationParameters
+    options.RequireHttpsMetadata = false; 
+    options.SaveToken = true; 
+    options.TokenValidationParameters = new TokenValidationParameters 
     {
-        ValidateIssuer = true,
-        ValidateAudience = true,
-        ValidateLifetime = true,
-        ValidateIssuerSigningKey = true,
-        ValidIssuer = jwt["Issuer"],
-        ValidAudience = jwt["Audience"],
+        ValidateIssuer = true, 
+        ValidateAudience = true, 
+        ValidateLifetime = true, 
+        ValidateIssuerSigningKey = true, 
+        ValidIssuer = jwt["Issuer"], 
+        ValidAudience = jwt["Audience"], 
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(key))
     };
 });
 
 // Register TokenService
-builder.Services.AddScoped<ITokenService, TokenService>();
+builder.Services.AddScoped<ITokenService, TokenService>(); 
 
 // Register AutoMapper 
-builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
+builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly()); 
 
 // Repository Registrations
 builder.Services.AddScoped<IRoomTypeRepository, RoomTypeRepository>();
@@ -63,7 +65,7 @@ builder.Services.AddScoped<IApplicationUserRepository, ApplicationUserRepository
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IDbInitializer, DbInitializer>();
-builder.Services.AddScoped<IReservationService, ReservationService>();
+builder.Services.AddScoped<IReservationService, ReservationService>(); 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
@@ -111,7 +113,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.UseAuthentication();
+app.UseAuthentication(); 
 app.UseAuthorization();
 app.MapControllers();
 app.Run();

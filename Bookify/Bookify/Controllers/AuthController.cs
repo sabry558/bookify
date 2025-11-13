@@ -31,7 +31,7 @@ namespace Bookify.Controllers
                 UserName = dto.Email,
                 Email = dto.Email,
                 FullName = dto.FullName,
-                Address = dto.Address, // optional
+                Address = dto.Address, 
                 NationalId = dto.NationalId,
                 Nationality = dto.Nationality,
                 BirthDate = dto.BirthDate
@@ -41,6 +41,9 @@ namespace Bookify.Controllers
 
             if (!result.Succeeded)
                 return BadRequest(result.Errors);
+
+            // assign default role "User"
+            await _userManager.AddToRoleAsync(user, "User"); 
 
             return Ok("User registered successfully");
         }
