@@ -1,7 +1,9 @@
-﻿namespace Bookify.DTOs.Reservations 
-{ 
+﻿using Bookify.Models;
+
+namespace Bookify.DTOs.Reservations
+{
     public class UpdateReservationStatusDTO 
-    { 
-        public Bookify.Models.ReservationStatus Status { get; set; } 
-    } 
-} 
+    {
+        public ReservationStatus Status { get; set; } 
+    }
+}

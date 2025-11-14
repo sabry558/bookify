@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using Bookify.DTOs.Rooms;
+using Bookify.Dtos.Rooms;
 using Bookify.Models;
 using Bookify.Repository.IRepository;
 using Microsoft.AspNetCore.Authorization;
@@ -47,6 +47,7 @@ namespace Bookify.Controllers
 
         // POST: api/Room
         [HttpPost]
+        [Authorize(Roles = "Admin,Employee")] // only hotel staff can create rooms 
         public async Task<IActionResult> Create([FromBody] RoomCreateDTO dto)
         {
             if (!ModelState.IsValid)
@@ -62,6 +63,7 @@ namespace Bookify.Controllers
 
         // PUT: api/Room/{id}
         [HttpPut("{id}")]
+        [Authorize(Roles = "Admin,Employee")] 
         public async Task<IActionResult> Update(int id, [FromBody] RoomCreateDTO dto)
         {
             if (!ModelState.IsValid)
@@ -71,10 +73,9 @@ namespace Bookify.Controllers
             if (room == null)
                 return NotFound();
 
-            // Map new values into existing entity
+            // Map new values into existing entity 
             room.RoomTypeId = dto.RoomTypeId;
-            room.RoomNumber = dto.RoomNumber; //added
-
+            // You may map other properties as needed (RoomNumber, Floor) if DTO exposes them.
             await _unitOfWork.Rooms.UpdateAsync(room);
             await _unitOfWork.SaveAsync();
 
@@ -83,6 +84,7 @@ namespace Bookify.Controllers
 
         // DELETE: api/Room/{id}
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Admin,Employee")] 
         public async Task<IActionResult> Delete(int id)
         {
             var room = await _unitOfWork.Rooms.GetByIdAsync(id);

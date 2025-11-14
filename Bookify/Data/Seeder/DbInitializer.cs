@@ -27,15 +27,16 @@ namespace Bookify.Data.Seeder
                 _context.Database.Migrate();
             }
 
-            // Seed roles
+            // Seed roles (Admin, Employee, User)
             if (!_roleManager.Roles.Any())
             {
-                _roleManager.CreateAsync(new IdentityRole("Admin")).Wait();
-                _roleManager.CreateAsync(new IdentityRole("User")).Wait();
+                _roleManager.CreateAsync(new IdentityRole("Admin")).Wait(); 
+                _roleManager.CreateAsync(new IdentityRole("Employee")).Wait(); 
+                _roleManager.CreateAsync(new IdentityRole("User")).Wait(); 
             }
 
             // Seed admin user
-            if (!_userManager.Users.Any())
+            if (!_userManager.Users.Any(u => u.Email == "admin@bookify.com"))
             {
                 var admin = new ApplicationUser
                 {
@@ -45,17 +46,20 @@ namespace Bookify.Data.Seeder
                     Address = "HQ",
                     NationalId = "00000000000000",
                     Nationality = "N/A",
-                    BirthDate = new DateTime(1980, 1, 1) // assign a valid value
+                    BirthDate = new DateTime(1980, 1, 1) 
                 };
 
                 var result = _userManager.CreateAsync(admin, "Admin@123").Result;
                 if (result.Succeeded)
                 {
-                    _userManager.AddToRoleAsync(admin, "Admin").Wait();
+                    _userManager.AddToRoleAsync(admin, "Admin").Wait(); 
                 }
                 else
                 {
-                    // Log result.Errors
+                    result.Errors.ToList().ForEach(e => 
+                    {
+                        Console.WriteLine($"Error creating admin user: {e.Description}");
+                    });
                 }
             }
 

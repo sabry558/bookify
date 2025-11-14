@@ -17,7 +17,7 @@ namespace Bookify.Controllers
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
 
-        public MediaController(IUnitOfWork unitOfWork, IMapper mapper) 
+        public MediaController(IUnitOfWork unitOfWork, IMapper mapper)
         {
             _unitOfWork = unitOfWork;
             _mapper = mapper;
@@ -25,7 +25,7 @@ namespace Bookify.Controllers
 
         // POST api/Media
         [HttpPost]
-        public async Task<IActionResult> Upload([FromForm] MediaCreateDTO dto) 
+        public async Task<IActionResult> Upload([FromForm] MediaCreateDTO dto)
         {
             if (dto.File == null || dto.File.Length == 0)
                 return BadRequest("Invalid file.");
@@ -33,10 +33,10 @@ namespace Bookify.Controllers
             using var ms = new MemoryStream();
             await dto.File.CopyToAsync(ms);
 
-            var media = _mapper.Map<Media>(dto); 
-            media.Data = ms.ToArray(); 
-            media.FileName = dto.File.FileName; 
-            media.ContentType = dto.File.ContentType; 
+            var media = _mapper.Map<Media>(dto);
+            media.Data = ms.ToArray();
+            media.FileName = dto.File.FileName;
+            media.ContentType = dto.File.ContentType;
 
             await _unitOfWork.Medias.AddAsync(media);
             await _unitOfWork.SaveAsync();
@@ -46,8 +46,8 @@ namespace Bookify.Controllers
 
         // GET api/Media/{id}/file  (download)
         [HttpGet("{id}/file")]
-        [AllowAnonymous] //optional
-        public async Task<IActionResult> Download(int id) 
+        [AllowAnonymous]
+        public async Task<IActionResult> Download(int id)
         {
             var media = await _unitOfWork.Medias.GetByIdAsync(id);
             if (media == null)

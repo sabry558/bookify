@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace Bookify.Models
 {
     public enum PaymentStatus { Pending, Completed, Failed }
-    public enum PaymentTypeEnum { Cash, CreditCard, PayPal }
+    public enum PaymentTypeEnum { Cash,CreditCard, PayPal }
     public class Payment
     {
         public int Id { get; set; }
@@ -25,6 +25,8 @@ namespace Bookify.Models
 
         [ForeignKey("ReservationId")]
         public Reservation Reservation { get; set; }
+        public string TransactionId { get; set; }
+
 
     }
 
