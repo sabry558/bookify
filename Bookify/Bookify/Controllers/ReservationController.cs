@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 using Bookify.DTOs.Reservations;
-using Bookify.Services.Reservations;
 using Bookify.Models;
 
 namespace Bookify.Controllers
@@ -11,21 +10,34 @@ namespace Bookify.Controllers
     [Route("api/[controller]")]
     public class ReservationController : ControllerBase
     {
-        private readonly IReservationService _service;
+        private readonly IUnitOfWork _unitOfWork;
 
-        public ReservationController(IReservationService service)
+        public ReservationController(IUnitOfWork unitOfWork)
         {
-            _service = service;
+            _unitOfWork = unitOfWork;
         }
 
         [HttpPost]
         [Authorize] // user must be logged in
-        public async Task<IActionResult> Create([FromBody] ReservationCreateDTO dto)
+        public async Task<IActionResult> CreateReservation([FromBody] ReservationCreateDTO dto)
         {
-            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-            var result = await _service.CreateAsync(userId, dto);
-            if (result == null) return BadRequest("Invalid reservation data or room already reserved.");
-            return Ok(result);
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+            var isAvailable = await _unitOfWork.Reservations.IsRoomAvailableAsync(dto.RoomId, dto.CheckIn, dto.CheckOut);
+            if (!isAvailable)
+                return BadRequest("The selected room is not available for the chosen dates.");
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier); // Get current user id
+            var reservation = new Reservation
+            {
+                RoomId = dto.RoomId,
+                CheckIn = dto.CheckIn,
+                CheckOut = dto.CheckOut,
+                Status = ReservationStatus.Confirmed,
+                UserId = userId 
+            };
+            await _unitOfWork.Reservations.AddAsync(reservation);
+            await _unitOfWork.SaveAsync();
+            return Ok(new { message = "Reservation created successfully", reservation });
         }
 
         [HttpGet("my")]
@@ -33,7 +45,7 @@ namespace Bookify.Controllers
         public async Task<IActionResult> GetMyReservations()
         {
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-            var reservations = await _service.GetUserReservationsAsync(userId);
+            var reservations = await _unitOfWork.Reservations.GetReservationsByUserAsync(userId);
             return Ok(reservations);
         }
 
@@ -41,14 +53,25 @@ namespace Bookify.Controllers
         [Authorize(Roles = "Admin,Employee")]
         public async Task<IActionResult> GetAll()
         {
-            return Ok(await _service.GetAllAsync());
+            return Ok(await _unitOfWork.Reservations.GetAllAsync());
         }
 
+        [HttpGet("available")]
+        public async Task<IActionResult> GetAvailableRooms([FromQuery] DateTime checkin, [FromQuery] DateTime checkout)
+        {
+
+            var availableRooms = await _unitOfWork.Reservations.GetAvailableRoomsAsync(checkin, checkout);
+
+            if (!availableRooms.Any())
+                return NotFound("No rooms available for the selected dates.");
+
+            return Ok(availableRooms);
+        }
         [HttpPut("{id}/status")]
         [Authorize(Roles = "Admin,Employee")]
         public async Task<IActionResult> UpdateStatus(int id, [FromBody] UpdateReservationStatusDTO dto)
         {
-            var success = await _service.UpdateStatusAsync(id, dto.Status);
+            var success = await _unitOfWork.Reservations.UpdateStatusAsync(id, dto.Status);
             if (!success) return NotFound();
             return Ok();
         }

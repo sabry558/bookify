@@ -4,7 +4,6 @@ using Bookify.Models;
 using Bookify.Repository;
 using Bookify.Repository.IRepository;
 using Bookify.Services;
-using Bookify.Services.Reservations;
 using Microsoft.AspNetCore.Authentication.JwtBearer;   
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -65,7 +64,6 @@ builder.Services.AddScoped<IApplicationUserRepository, ApplicationUserRepository
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IDbInitializer, DbInitializer>();
-builder.Services.AddScoped<IReservationService, ReservationService>(); 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
