@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using Stripe;
 using System.Reflection;
 using System.Text;
 
@@ -49,7 +50,7 @@ builder.Services.AddAuthentication(options =>
 });
 
 // Register TokenService
-builder.Services.AddScoped<ITokenService, TokenService>(); 
+builder.Services.AddScoped<ITokenService, Bookify.Services.TokenService> (); 
 
 // Register AutoMapper 
 builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly()); 
@@ -62,6 +63,8 @@ builder.Services.AddScoped<IMediaRepository, MediaRepository>();
 builder.Services.AddScoped<IPaymentRepository, PaymentRepository>();
 builder.Services.AddScoped<IApplicationUserRepository, ApplicationUserRepository>();
 
+builder.Services.Configure<StripeSettings>(builder.Configuration.GetSection("Stripe"));
+StripeConfiguration.ApiKey = builder.Configuration["Stripe:SecretKey"];
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IDbInitializer, DbInitializer>();
 builder.Services.AddControllers();
