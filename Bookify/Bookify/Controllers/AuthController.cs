@@ -1,6 +1,7 @@
 ﻿using Bookify.DTOs.Auth;
 using Bookify.Models;
 using Bookify.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
@@ -67,5 +68,19 @@ namespace Bookify.Controllers
                 ExpiresAt = DateTime.UtcNow.AddMinutes(120)
             });
         }
+
+        [HttpPut("add roles")]
+        [Authorize(Roles ="admin")]
+        public async Task<IActionResult> AddRoles([FromBody] AddRolesDto dto)
+        {
+            var user = await _userManager.FindByIdAsync(dto.UserId);
+            if (user == null) return NotFound("User not found");
+            var result = await _userManager.AddToRolesAsync(user, dto.Roles);
+            if (!result.Succeeded) return BadRequest(result.Errors);
+            return Ok("Roles added successfully");
+        }
+
+
+
     }
 }

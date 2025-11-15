@@ -10,6 +10,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Reflection;
 using System.Text;
+using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -25,8 +26,13 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
 
 // JWT CONFIGURATION (added)
 var jwt = builder.Configuration.GetSection("Jwt");
-var key = jwt.GetValue<string>("Key") ?? string.Empty; 
-
+var key = jwt.GetValue<string>("Key") ?? string.Empty;
+builder.Services.AddControllers()
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve;
+        options.JsonSerializerOptions.MaxDepth = 64; // optional, default is 32
+    });
 builder.Services.AddAuthentication(options => 
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme; 
@@ -104,11 +110,9 @@ using (var scope = app.Services.CreateScope())
     dbInitializer.Initialize(); 
 }
 
-if (app.Environment.IsDevelopment())
-{
     app.UseSwagger();
     app.UseSwaggerUI();
-}
+
 
 app.UseHttpsRedirection();
 app.UseAuthentication(); 

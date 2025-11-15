@@ -27,9 +27,9 @@ namespace Bookify.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
-            var rooms = await _unitOfWork.Rooms.GetAllAsync(null, r => r.RoomType);
-            var result = _mapper.Map<IEnumerable<RoomReadDTO>>(rooms);
-            return Ok(result);
+            var rooms = await _unitOfWork.Rooms.GetAllAsync();
+            //var result = _mapper.Map<IEnumerable<RoomReadDTO>>(rooms);
+            return Ok(rooms);
         }
 
         // GET: api/Room/{id}
